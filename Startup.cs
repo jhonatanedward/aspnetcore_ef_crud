@@ -57,7 +57,7 @@ namespace Mvc_EFCore2
             {
                 endpoints.MapControllerRoute(
                     name: "default",
-                    pattern: "{controller=Teste}/{action=Index}/{id?}");
+                    pattern: "{controller=Aluno}/{action=Index}/{id?}");
             });
         }
     }
